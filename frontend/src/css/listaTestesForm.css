@@ -1,0 +1,43 @@
+.lista-testes {
+    text-align: center;
+    background: url('../images/background.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .grid-testes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .home-button {
+    top: 0px;
+    left: 0px;
+  }
+  
+  .bloco-teste {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bloco-teste h2 {
+    margin-bottom: 10px;
+  }
+  
+  .bloco-teste button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
